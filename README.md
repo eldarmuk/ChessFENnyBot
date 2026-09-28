@@ -1,5 +1,16 @@
 # ChessFENnyBot
 
+A small project bringing chess and programming together. The Telegram bot reads supported Lichess screenshots and returns piece-placement notation or an annotated board.
+
+Python · OpenCV · Telegram
+
+It uses template matching, so the board theme and piece artwork matter. It returns the board part of FEN, not the full game state.
+
+<details>
+<summary>Setup and technical notes</summary>
+
+# ChessFENnyBot
+
 A small Python/Telegram project connecting two things I enjoy: programming and chess. Send a supported Lichess board screenshot and the bot returns its piece placement, a Lichess editor link, or an annotated board image.
 
 ![Example input board](boards/1.jpg)
@@ -46,3 +57,5 @@ For an offline entry point, `python detector.py` reads `boards/1.jpg` and prints
 The board and piece assets are used for the Lichess-specific experiment; this README does not assign them a new license. [Lichess](https://lichess.org/) is the source platform, not an affiliation claim.
 
 [My portfolio](https://eldarmukhtar.ovh/)
+
+</details>
